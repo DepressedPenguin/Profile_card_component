@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(25, 161, 173);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  border-radius: 5px;
+  height: 625px;
+  background-color: rgb(25, 161, 173);
+  background-image: url(/src/imgs/bg-pattern-top.svg);
+  background-position: center;
+}
+
+.Profile_Section {
+  width: 370px;
+  height: 360px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 40% 32% 33%;
+}
+
+.box_profile {
+  background-color: white;
+}
+
+.bg_and_avatar {
+  background-image: url(/src/imgs/bg-pattern-card.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.logo_user {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo_rounded {
+  border-radius: 50%;
+  border: 6px solid white;
+}
+
+.name_and_location {
+  background-color: white;
+  text-align: center;
+  height: 100%;
+}
+
+#name_age {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#location {
+  color: grey;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+#age {
+  color: grey;
+  font-weight: 500;
+}
+
+.followers_div {
+  background-color: white;
+  border-top: 1px solid rgb(218, 213, 213);
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 95%;
+  grid-gap: 10px 10px;
+}
+
+.box_followers {
+  text-align: center;
+}
+
+.amount {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.type_amount {
+  color: grey;
+  font-size: 13px;
+  letter-spacing: 2px;
+}/*# sourceMappingURL=style.css.map */
