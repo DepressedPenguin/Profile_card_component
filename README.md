@@ -15,3 +15,5 @@ A customizable React.js card component built with SCSS.
 
 Check out the live demo https://profile-card-front-end.netlify.app/
 
+
+![profile-card-front-end netlify app_](https://github.com/DepressedPenguin/Profile_card_component/assets/125665615/e6565ee8-7e20-4615-b1f3-d8c2f811730e)
